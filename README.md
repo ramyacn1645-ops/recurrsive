@@ -2,10 +2,10 @@
 #include<stdio.h>
 void factorial(int n){
 if(n==0){
-return 1;
+return 1;   //base case
 }
 else{
-return fact(n-1)*n;
+return fact(n-1)*n;  
 }
 }
 int main(){
